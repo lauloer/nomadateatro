@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="es">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<title>Nómada Teatro </title>
+		<link 	rel="stylesheet"
+				type="text/css"
+				media="screen, projection"
+				href="style.css"
+		/>
+		<script>
+			function myFunction() {
+			  var x = document.getElementById("myTopnav");
+			  if (x.className === "topnav") {
+				x.className += " responsive";
+			  } else {
+				x.className = "topnav";
+			  }
+			}
+		</script>
+	</head>
+	<body class="main">
+		<img class="logo" src="logo.png" alt="logotipo.png">
+		<div class="topnav" id="myTopnav">
+		  <a href="index.html">Inicio</a>
+		  <a href="proyectos.html">Proyectos</a>
+		  <a href="compania.html">Compañía</a>
+		  <a href="temporada.html">Teatro Café</a>
+		  <a href="contacto.html" class="active">Contáctanos</a>
+		  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<i class="fa fa-bars"></i></a>
+		</div>
+		<div class="contact">
+			<p class="contacto">
+				<b>Para recepción de proyectos o contratación de servicios:</b><br /> </p>
+			<p>Contáctanos a través de Facebook, nos encuentras como 
+				<a class="facebook" title="Ir a facebook" target="_blank"
+				href="https://www.facebook.com/nomadateatrocafe/">
+				Nómada Teatro Cafe</a>. O bien, escríbenos a 
+				<a class="mail" href="mailto:todossomosnomada@gmail.com"
+				title="Enviar e-mail">
+				todossomosnomada@gmail.com </a><br /><br /><br /></p>
+				
+			<p class="contacto">	
+				<b>Para reservaciones o conocer nuestra cartelera:</b><br /></p>
+			<p>Para conocer nuestra cartelera vigente,
+				visita nuestra página de Facebook <a class="facebook" title="Ir a facebook" 
+				target="_blank" href="https://www.facebook.com/nomadateatrocafe/">
+				Nómada Teatro Cafe</a> o da click			
+				<a class="cartelera" title="Ir a Cartelera Teatro Cafe" href="temporada.html">
+				aquí</a><br />
+				Llámanos y haz tu reservación al teléfono:<br />
+				<a class="phone" href="tel:614-512-1027">614-512-1027</a></p>	
+		</div>
+	</body>
+</html>
