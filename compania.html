@@ -10,16 +10,6 @@
 				media="screen, projection"
 				href="style.css"
 		/>
-		<script>
-			function myFunction() {
-			  var x = document.getElementById("myTopnav");
-			  if (x.className === "topnav") {
-				x.className += " responsive";
-			  } else {
-				x.className = "topnav";
-			  }
-			}
-		</script>
 	</head>
 	<body class="main">
 		<img class="logo" src="logo.png" alt="logotipo.png">
@@ -32,5 +22,16 @@
 		  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
 			<i class="fa fa-bars"></i></a>
 		</div>
+		
+		<script>
+			function myFunction() {
+			  var x = document.getElementById("myTopnav");
+			  if (x.className === "topnav") {
+				x.className += " responsive";
+			  } else {
+				x.className = "topnav";
+			  }
+			}
+		</script>
 	</body>
 </html>

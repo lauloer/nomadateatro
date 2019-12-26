@@ -10,12 +10,9 @@ html {
 .topnav {
 	overflow: hidden;
 	background-color: #272B3C;	
-	position: absolute;
-	transform: translate(0vw, 6vw);
 }
 
 .topnav a {
-  margin-left: 2px;
   float: left;
   display: block;
   color: white;
@@ -46,9 +43,9 @@ html {
 
 .logo {
 	margin: 0 3.317535545023696682% 1.5em 0;
-	width: 37.121642969984202211%;
+	width: 40%;
 	float: right;
-	margin-top: 10px;
+	display: inline-block;
 }
 
 h1.billboard {
@@ -56,7 +53,7 @@ h1.billboard {
 	text-align: center;
 	color: white;
 	margin: auto;
-	margin-top: auto;
+	margin-top: 5vw;
 	border: 2px solid #464A58;
 	background-color: #464A58;
 	border-radius: 10px;
@@ -129,12 +126,13 @@ a.cartelera, a.cartelera:visited, a.phone, a.phone:visited {
 									
 									
 									
-@media screen and (max-width: 1008px){
+@media screen and (max-width: 1040px){
 	.logo {
-		margin-left: 2px;
-		height: 30%;
-		width: 98%;
-		display: block;
+		#left: 7px;
+		#top: 70px;
+		#height: 30%;
+		width: 50%;
+		display: inline-block;
 	}
 	h1.billboard {
 		margin-top: 8vw;
@@ -155,34 +153,9 @@ a.cartelera, a.cartelera:visited, a.phone, a.phone:visited {
 	.topnav a {
 		font-size: 17px;
 	}
-	.topnav {
-		position: absolute;
-		left: 2px;
-		right: 0;
-		transform: translate(0, 25vw);
-	}
 }
 
-@media screen and (max-width: 610px){
-	.topnav a {
-		font-size: 12px;
-	}
-	.topnav a:not(:first-of-type) {display: none;}
-	.topnav a.icon {
-    float: right;
-    display: block;
-	font-size: 12px;
-  }
-}
-
-@media screen and (max-width: 610px){
-	.logo {
-		margin-left: 2px;
-		height: 30%;
-		width: 98%;
-		display: block;
-	}
-	
+@media screen and (max-width: 610px){	
 	h1.billboard {
 		margin-top: 8vw;
 		font-size: 12px;
@@ -201,8 +174,20 @@ a.cartelera, a.cartelera:visited, a.phone, a.phone:visited {
 	}
 }
 
-@media screen and (max-width: 610px) {
-	.topnav.responsive {position: absolute;}
+@media screen and (max-width: 1040px){
+	.topnav a {
+		font-size: 12px;
+	}
+	.topnav a:not(:first-of-type) {display: none;}
+	.topnav a.icon {
+    float: right;
+    display: block;
+	font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1040px) {
+	.topnav.responsive {position: relative;}
 	.topnav.responsive .icon {
     position: absolute;
     right: 0;
@@ -214,9 +199,18 @@ a.cartelera, a.cartelera:visited, a.phone, a.phone:visited {
     text-align: left;
   }
   
- @media screen and (max-width: 500px) {
-  .topnav {
-		position: absolute;
-		transform: translate(0, 28vw);
+ @media screen and (max-width: 442px) {
+	.logo {
+		width: 60%;
+	}
+ }
+  @media screen and (max-width: 326px) {
+	.logo {
+		width: 50%;
+	}
+ }
+ @media screen and (max-width: 259px) {
+	.logo {
+		width: 40%;
 	}
  }
