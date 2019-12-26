@@ -20,7 +20,7 @@ html {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 1.5vw;
   font-family: monospace;
   border-radius: 10px;
 }
@@ -128,11 +128,7 @@ a.cartelera, a.cartelera:visited, a.phone, a.phone:visited {
 									
 @media screen and (max-width: 1040px){
 	.logo {
-		#left: 7px;
-		#top: 70px;
-		#height: 30%;
-		width: 50%;
-		display: inline-block;
+		width: 40%;
 	}
 	h1.billboard {
 		margin-top: 8vw;
@@ -152,6 +148,12 @@ a.cartelera, a.cartelera:visited, a.phone, a.phone:visited {
 	}
 	.topnav a {
 		font-size: 17px;
+	}
+}
+
+@media screen and (max-width: 864px){
+	.logo {
+		width: 35%;
 	}
 }
 
@@ -178,7 +180,10 @@ a.cartelera, a.cartelera:visited, a.phone, a.phone:visited {
 	}
 }
 
-@media screen and (max-width: 1040px){
+@media screen and (max-width: 720px){
+	.logo {
+		width: 40%;
+	}
 	.topnav a {
 		font-size: 12px;
 	}
@@ -216,10 +221,5 @@ a.cartelera, a.cartelera:visited, a.phone, a.phone:visited {
  @media screen and (max-width: 259px) {
 	.logo {
 		width: 40%;
-	}
-	 
-	 .logo {
-		width: 40%;
-	}
-	 
+	 }	 
  }
