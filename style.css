@@ -172,6 +172,10 @@ a.cartelera, a.cartelera:visited, a.phone, a.phone:visited {
 	.gmap_canvas {
 		max-width: 100%;
 	}
+	
+	div.contact {
+		padding: 15px;
+	}
 }
 
 @media screen and (max-width: 1040px){
@@ -213,4 +217,9 @@ a.cartelera, a.cartelera:visited, a.phone, a.phone:visited {
 	.logo {
 		width: 40%;
 	}
+	 
+	 .logo {
+		width: 40%;
+	}
+	 
  }
