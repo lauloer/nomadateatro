@@ -222,7 +222,7 @@ a.cartelera, a.cartelera:visited, a.phone, a.phone:visited {
 	.topnav a, .dropmenu .dropbtn {
 		font-size: 12px;
 	}
-	.topnav a:not(:first-of-type), .dropmenu .dropbtn {
+	.topnav a:not(.active) {
 		display: none;}
 	.topnav a.icon {
     float: right;
