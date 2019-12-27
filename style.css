@@ -38,13 +38,13 @@ html {
   overflow: hidden;
 }
 
- .dropbtn {
+ a.dropbtn {
   font-size: 1.2vw;    
   border: none;
   outline: none;
-  color: white;
+  color: #272B3C;
   padding: 14px 16px;
-  background-color: #272B3C;
+  background-color: #FFC909;
   font-family: monospace;
   margin: 0;
 }
@@ -54,12 +54,13 @@ html {
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0);
   z-index: 1;
   border-radius: 2px;
+  border: none;
 }
 
-.dropmenu-content a {
+.dropmenu-content button {
 	font-size: 1vw;
 	float: none;
 	color: black;
@@ -68,25 +69,24 @@ html {
 	display: block;
 	text-align: left;
 	background-color: white;
+	font-family:monospace;
+	text-decoration: none;
 }
 
-.topnav a:hover, .dropbtn {
+.topnav a:hover {
   background-color: #464A58;
   color: white;
 }
 
-.dropmenu:hover {
-  color: #272B3C;
-}
-
 .dropmenu:hover .dropmenu-content {
   display: block;
-  top: 50px;
+  top: 3vw;
 }
 
-.dropmenu-content a:hover {
+.dropmenu-content button:hover {
   background-color: #ddd;
   color: black;
+  text-decoration: none;
 }
 
 .logo {
@@ -94,6 +94,39 @@ html {
 	width: 40%;
 	float: right;
 	display: inline-block;
+}
+
+.accordion {
+	max-width: 80%; 
+	margin: auto;
+}
+
+.card {
+	background-color: #464A58; 
+	border-radius: 10px;
+}
+
+.card-body {
+	color: white;
+}
+
+.btn-link {
+	color: white;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.btn-link:hover {
+	color: white;
+}
+
+.card-img-top {
+	max-width: 60%; 
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto;
 }
 
 h1.billboard {
@@ -182,7 +215,6 @@ a.cartelera, a.cartelera:visited, a.phone, a.phone:visited {
 	}
 	h1.billboard {
 		margin-top: 8vw;
-		#max-width: 80%;
 	}
 	iframe {
 		max-width: 100%;
@@ -198,36 +230,33 @@ a.cartelera, a.cartelera:visited, a.phone, a.phone:visited {
 	.dropmenu {
 		font-size: 11px;
 	}
+	.dropmenu:hover .dropmenu-content {
+	  top: 3.5vw;
+	}
+	
+	.dropbtn {
+		font-size: 12px;
+	}
+	
+	.topnav a
+	{
+		font-size: 12px;
+	}
+	.dropmenu-content button {
+		font-size: 11px;
+	}
 }
 
 @media screen and (max-width: 864px){
 	.logo {
 		width: 35%;
 	}
-}
-
-@media screen and (max-width: 610px){	
-	h1.billboard {
-		margin-top: 8vw;
-		max-width: 70%;
-	}
-	iframe {
-		max-width: 100%;
-	}
-	
-	.mapouter {
-		max-width: 90%;
-	}
-
-	.gmap_canvas {
-		max-width: 100%;
-	}
-	div.contact {
-		padding: 15px;
+	.dropmenu:hover .dropmenu-content {
+	  top: 4vw;
 	}
 }
 
-@media screen and (max-width: 720px){
+@media screen and (max-width: 738px){
 	.logo {
 		width: 40%;
 	}
@@ -241,12 +270,16 @@ a.cartelera, a.cartelera:visited, a.phone, a.phone:visited {
     display: block;
 	font-size: 12px;
   }
-  h1.billboard {
-	font-size: 2.5vw;
+  .dropmenu-content button {
+		font-size: 11px;
+	}
+	
+		h1.billboard {
+	font-size: 3vw;
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 738px) {
 	.topnav.responsive {position: relative;}
 	.topnav.responsive .icon {
     position: absolute;
@@ -266,10 +299,36 @@ a.cartelera, a.cartelera:visited, a.phone, a.phone:visited {
     text-align: left;
   }
 }
+
+@media screen and (max-width: 610px){	
+	h1.billboard {
+		margin-top: 8vw;
+		max-width: 70%;
+		font-size: 3.5vw;
+	}
+	iframe {
+		max-width: 100%;
+	}
+	
+	.mapouter {
+		max-width: 90%;
+	}
+
+	.gmap_canvas {
+		max-width: 100%;
+	}
+	div.contact {
+		padding: 15px;
+	}
+}
   
  @media screen and (max-width: 442px) {
 	.logo {
 		width: 60%;
+	}
+	
+	h1.billboard {
+		font-size: 14px;
 	}
  }
   @media screen and (max-width: 326px) {
