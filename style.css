@@ -186,23 +186,10 @@ a.cartelera, a.cartelera:visited, a.phone, a.phone:visited {
 	.gmap_canvas {
 		max-width: 100%;
 	}
-	.dropmenu {
-		font-size: 11px;
-	}
-	.dropmenu:hover .dropmenu-content {
-	  top: 3.5vw;
-	}
-	
-	.dropbtn {
-		font-size: 12px;
-	}
 	
 	.topnav a
 	{
 		font-size: 12px;
-	}
-	.dropmenu-content button {
-		font-size: 11px;
 	}
 }
 
@@ -210,28 +197,22 @@ a.cartelera, a.cartelera:visited, a.phone, a.phone:visited {
 	.logo {
 		width: 35%;
 	}
-	.dropmenu:hover .dropmenu-content {
-	  top: 4vw;
-	}
 }
 
 @media screen and (max-width: 738px){
 	.logo {
 		width: 40%;
 	}
-	.topnav a, .dropmenu .dropbtn {
+	.topnav a {
 		font-size: 12px;
 	}
-	.topnav a:not(.active) {
+	.topnav a:not(:first-of-type) {
 		display: none;}
 	.topnav a.icon {
     float: right;
     display: block;
 	font-size: 12px;
   }
-  .dropmenu-content button {
-		font-size: 11px;
-	}
 	
 		h1.billboard {
 	font-size: 3vw;
@@ -250,18 +231,7 @@ a.cartelera, a.cartelera:visited, a.phone, a.phone:visited {
     display: block;
     text-align: left;
   }
-  .topnav.responsive .dropmenu {float: none;}
-  .topnav.responsive .dropmenu-content {
-	  width: 100%;
-	  position: relative; 
-	  top: 0; 
-	  left: 0;
-	}
-  .topnav.responsive .dropmenu .dropbtn {
-    display: block;
-    width: 100%;
-    text-align: left;
-  }
+
 }
 
 @media screen and (max-width: 610px){	
