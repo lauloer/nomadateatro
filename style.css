@@ -142,7 +142,7 @@ div.carousel {
 }
 
 .show {
-	font-size: 16px;
+	font-size: 14px;
 }
 			
 a.facebook, a.facebook:visited  {
@@ -158,10 +158,15 @@ a.cartelera, a.cartelera:visited, a.phone, a.phone:visited {
 	color: #FFC909;
 }
 									
-			
+	
+
+	
 									
-									
-							
+@media screen and (max-width: 1267px){
+	.cont {
+			margin-top:1vw;
+	}
+}				
 									
 @media screen and (max-width: 1040px){
 	.logo {
