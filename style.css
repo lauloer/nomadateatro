@@ -129,7 +129,6 @@ div.carousel {
 	width:800px;
 }
 						
-
 .cont.collapsed {
 	border-style:none; 
 	outline:#464A58;	
@@ -140,6 +139,10 @@ div.carousel {
 	border-color: #FFC909;
 	outline:#FFC909;
 	font-weight: bold;
+}
+
+.conta {
+	font-size: 16px;
 }
 			
 a.facebook, a.facebook:visited  {
