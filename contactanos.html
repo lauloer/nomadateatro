@@ -23,27 +23,36 @@
 		  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
 			<i class="fa fa-bars"></i></a>
 		</div>
-		<div class="contact">
-			<p class="contacto">
-				<b>Para recepción de proyectos o contratación de servicios:</b><br /> </p>
-			<p>Contáctanos a través de Facebook, nos encuentras como 
+		<div class="accordion" id="accordionExample" style="margin-top:10vw; max-width:80%;">
+				<button class="cont" role="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="padding:5px; border-radius:5px; background-color:#464A58; color:white; font-family:monospace; font-size:16px;">
+				  Para reservaciones o conocer nuestra cartelera: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				</button>
+				<button class="cont collapsed" role="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="padding:5px; border-radius:5px; background-color:#464A58; color:white; font-family:monospace; font-size:16px;">
+				  Para recepción de proyectos o contratación de servicios:
+				</button>
+			
+			<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample" style="margin-top:2vw; max-width:95%; margin-left:2vw; border-style:solid; border-radius:5px; border-color:#464A58;">
+			  <div class="card-body">
+				Contáctanos a través de Facebook, nos encuentras como 
 				<a class="facebook" title="Ir a facebook" target="_blank"
 				href="https://urlgeni.us/facebook/mEr8">
-				Nómada Teatro Cafe</a>. O bien, envíanos un email 
+				Nómada Teatro Cafe</a>. <br />O bien, envíanos un email 
 				<a class="mail" href="mailto:todossomosnomada@gmail.com"
 				title="todossomosnomada@gmail">
-				aquí </a><br /><br /><br /></p>
-				
-			<p class="contacto">	
-				<b>Para reservaciones o conocer nuestra cartelera:</b><br /></p>
-			<p>Para conocer nuestra cartelera vigente,
-				visita nuestra página de Facebook <a class="facebook" title="Ir a facebook" 
+				aquí</a>
+			  </div>
+			</div>
+			<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample" style="margin-top:2vw; max-width:95%; margin-left:2vw; border-style:solid; border-radius:5px; border-color:#464A58;">
+			  <div class="card-body">
+				Para conocer nuestra cartelera vigente, visita nuestra página de Facebook <br />
+				<a class="facebook" title="Ir a facebook" 
 				target="_blank" href="https://urlgeni.us/facebook/mEr8">
 				Nómada Teatro Cafe</a> o da click			
 				<a class="cartelera" title="Ir a Cartelera Teatro Cafe" href="temporada.html">
-				aquí</a><br />
+				aquí</a><br /><br />
 				Llámanos y haz tu reservación al teléfono:<br />
-				<a class="phone" href="tel:614-345-9330">614-345-9330</a></p>	
+				<a class="phone" title="Llamar" ref="tel:614-345-9330">614-345-9330</a>
+			</div>
 		</div>
 		
 		<script>
