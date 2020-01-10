@@ -114,6 +114,34 @@ div.carousel {
 	margin: auto;
 }
 
+a.Boton1MP {
+	font-family: monospace;
+	font-size: 18px;
+	text-decoration: none;
+	text-align: center;
+	padding: 15px 25px;
+	background-color: #3783BA;
+	border-radius: 15px;
+	outline: none;
+	color: black !important;
+	box-shadow: inset 0 -10px 20px #2C5B79;
+	display: block;
+	max-width: 15%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.Boton1MP:hover {
+	box-shadow: inset 0 10px 20px #2C5B79;
+	cursor: pointer; 
+}
+
+.Boton1MP:active {
+	background-color: #449AC5;
+	box-shadow: inset 0 0 20px #2C5B79;
+	font-weight: bold;
+}
+	
 .mapouter{
 	margin: auto;
 	margin-top: 5vw;
@@ -162,9 +190,12 @@ a.cartelera, a.cartelera:visited, a.phone, a.phone:visited {
 
 	
 									
-@media screen and (max-width: 1267px){
+@media screen and (max-width: 1273px){
 	.cont {
 			margin-top:1vw;
+	}
+	a.Boton1MP {
+			max-width: 20%;
 	}
 }				
 									
@@ -192,11 +223,17 @@ a.cartelera, a.cartelera:visited, a.phone, a.phone:visited {
 	{
 		font-size: 12px;
 	}
+	a.Boton1MP {
+			max-width: 25%;
+	}
 }
 
 @media screen and (max-width: 864px){
 	.logo {
 		width: 35%;
+	}
+	a.Boton1MP {
+			max-width: 30%;
 	}
 }
 
@@ -218,6 +255,9 @@ a.cartelera, a.cartelera:visited, a.phone, a.phone:visited {
 		h1.billboard {
 	font-size: 3vw;
   }
+  a.Boton1MP {
+			max-width: 35%;
+	}
 }
 
 @media screen and (max-width: 738px) {
@@ -252,6 +292,9 @@ a.cartelera, a.cartelera:visited, a.phone, a.phone:visited {
 	.gmap_canvas {
 		max-width: 100%;
 	}
+	a.Boton1MP {
+			max-width: 50%;
+	}
 }
   
  @media screen and (max-width: 442px) {
@@ -262,10 +305,17 @@ a.cartelera, a.cartelera:visited, a.phone, a.phone:visited {
 	h1.billboard {
 		font-size: 14px;
 	}
+	a.Boton1MP {
+			max-width: 65%;
+	}
  }
   @media screen and (max-width: 326px) {
 	.logo {
 		width: 50%;
+	}
+	a.Boton1MP {
+			max-width: 70%;
+			padding: 5px;
 	}
  }
  @media screen and (max-width: 259px) {
